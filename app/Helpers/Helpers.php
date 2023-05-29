@@ -40,10 +40,13 @@ class Helpers
       ],
       //   'defaultLanguage'=>'en',
     ];
+    
+   /*this is a custom check for arabic language it enables right to left navigation*/
+    if(session()->get('locale') == "ar"){
+      $data["myRTLMode"] = true;
+    }
 
-    // if any key missing of array from custom.php file it will be merge and set a default value from dataDefault array and store in data variable
     $data = array_merge($DefaultData, $data);
-
     // All options available in the template
     $allOptions = [
       'myLayout' => ['vertical', 'horizontal', 'blank'],

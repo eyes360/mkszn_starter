@@ -981,6 +981,29 @@ TemplateCustomizer.LANGUAGES = {
     misc_header: 'MISC',
     rtl_label: 'RTL direction'
   },
+  ar: {
+    panel_header: 'تخصيص القالب',
+    panel_sub_header: 'قم بتخصيص ومعاينة النتائج في الوقت الحقيقي',
+    theming_header: 'تنسيق الشكل',
+    theme_header: 'سمة',
+    theme_label: 'السمات',
+    style_label: 'نمط (وضع)',
+    style_switch_light: 'فاتح',
+    style_switch_dark: 'داكن',
+    layout_header: 'التخطيط',
+    layout_label: 'تخطيط (القائمة)',
+    layout_static: 'ثابت',
+    layout_offcanvas: 'تحت الشاشة',
+    layout_fixed: 'ثابت',
+    layout_fixed_offcanvas: 'ثابت (تحت الشاشة)',
+    layout_flipped_label: 'انعكاس القائمة',
+    layout_dd_open_label: 'قائمة منسدلة عند التحويم',
+    layout_navbar_label: 'شريط التنقل الثابت',
+    layout_footer_label: 'تذييل ثابت',
+    misc_header: 'متفرقات',
+    rtl_label: 'اتجاه النص (RTL)'
+  },
+  
   fr: {
     panel_header: 'MODÈLE DE PERSONNALISATION',
     panel_sub_header: 'Personnalisez et prévisualisez en temps réel',
